@@ -1,13 +1,13 @@
 # libSerialKey
 
-一个简单的序列号库，里面有少许的反破解机制。
+A simple serial number library. I recommend using static library if you want to use it in you client program, because the shared library is easy to crack.
 
-## 编译
+## Build
 
-### windows平台
-建议使用src目录下的vs工程文件进行编译。
-libSerialKey.vcxproj: 用于编译静态库
-libSerialKey_dll.vcxproj: 用于编译动态库
+### windows
+* libSerialKey.vcxproj: build static library
+* libSerialKey_dll.vcxproj: build shared library
 
-### Linux平台
-Makefile编译
+### Linux
+
+build with Makefile
