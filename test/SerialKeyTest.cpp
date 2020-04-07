@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <Windows.h>
-#include <TMPRSerialKey.h>
+#include <TSerialKey.h>
 
 #pragma comment(lib, "kernel32.lib")
 
